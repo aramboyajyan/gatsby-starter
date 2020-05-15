@@ -9,9 +9,9 @@ const Footer = () => (
     <Container id="footer-main-wrap">
       <p>This is the footer</p>
       <p>
-        <a href="https://www.facebook.com/" target="_blank"><FaFacebook /></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
         &nbsp;
-        <a href="https://www.twitter.com/" target="_blank"><FaTwitter /></a>
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
       </p>
     </Container>
     <Container id="footer-copyrights-wrap">
