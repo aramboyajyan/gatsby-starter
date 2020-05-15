@@ -1,21 +1,17 @@
 import React from "react"
 
-import { FaCode } from 'react-icons/fa';
-
-import { Link } from 'gatsby';
-
 import Layout from "../components/index"
 import SEO from "../components/other/seo"
 import Container from "../components/layout/container";
 
-const IndexPage = () => (
+const DemoPage = () => (
   <Layout>
     <SEO title="Home" />
     <Container>
-      <h1>Home</h1>
-      <p><FaCode /> <Link to="/demo/">Demo page</Link></p>
+      <h1>Demo</h1>
+      <p>Demo page</p>
     </Container>
   </Layout>
 )
 
-export default IndexPage
+export default DemoPage
