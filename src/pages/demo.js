@@ -1,12 +1,12 @@
 import React from "react"
 
 import Layout from "../components/index"
-import SEO from "../components/other/seo"
+import Seo from "../components/other/seo"
 import Container from "../components/layout/container";
 
 const DemoPage = () => (
   <Layout>
-    <SEO title="Demo" />
+    <Seo title="Demo" />
     <Container>
       <h1>Demo Page</h1>
       <p>This page should be used for demonstrating the elements of the theme.</p>
